@@ -1,5 +1,9 @@
-# Olá, Mundo!
+# Aprendendo HTML5
 
-Olá! você que esta visitando esse repositório, criei ele para aprender a usar o Git e Github.
+Estou aprendendo HTML5, e vou postar aqui o que conforme eu vá aprendendo.
 
-Um passo de cada vez e vou chegar lá.
+Portanto vou postar exericicos que fiz, desafios do curso que tem para fazer e etc.
+
+Estou fazendo o curso de HMTL5 e CSS3 do Curso em Video de Gustavo Guanabara, procure no youtube que você acha fácil.
+
+
