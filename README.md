@@ -1,6 +1,6 @@
 # Aprendendo HTML5
 
-Estou aprendendo HTML5, e vou postar aqui o que conforme eu vá aprendendo.
+Estou aprendendo HTML5, vou postar aqui conforme eu vá aprendendo.
 
 Portanto vou postar exericicos que fiz, desafios do curso que tem para fazer e etc.
 
