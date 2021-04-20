@@ -8,6 +8,25 @@
     <title>Exercicio 06</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Exercicio 07</h1>
+    <p>O intuito deste Exercicio é mostrar como usar a tag &lt;img&gt;</p>
+    <p>Mostrando como um site tem que ser responsivo, ou seja, carregar a mesma imagem em diferentes tamanhos de tela.</p>
+    <h2>Imagem Flexivel</h2>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagens-paisagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagens-paisagens/paisagem-m.png" type="image/png">
+        <img src="imagens/imagens-paisagens/paisagem-g.png" alt="paisagem-g">
+    </picture>
+
+    <h2>Tags Usadas:</h2>
+      <ol>
+        <li>Tag para carregar imagem &lt;img src="pasta onde esta a imagem" alt="descrição da imagem"</li>
+
+        <li>Com essa tag conseguimos carregar a imagem e definir tamanhos máximo e minimo. &lt;source media="(max-width: 1050px)" srcset="local onde esta a imagem" type="descrição da imagem"></li>
+      </ol>
+
+
+
 </body>
 </html>
