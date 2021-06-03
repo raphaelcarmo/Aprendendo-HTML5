@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            color:black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+        article{
+            background-color: white;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: lightyellow;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav {
+            background-color: gray;
+            text-decoration: underline;
+            text-align: center;
+            padding: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Besteiras</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam repudiandae adipisci necessitatibus molestias alias. Similique inventore quas amet, sapiente odio optio sint nulla quisquam, voluptatum rem debitis atque eveniet!</p>
+                <aside>
+                    <p>Artigo escrito por mim.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Raphael</p>
+    </footer>
+</body>
+</html>
