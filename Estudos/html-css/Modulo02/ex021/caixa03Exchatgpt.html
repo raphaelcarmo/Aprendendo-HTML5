@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        main {
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        article > aside {
+            background-color: gray;
+            padding: 10px;
+        }
+
+        article {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: lightyellow;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        nav {
+            background-color: gray;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.377);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        nav > a:hover {
+            color: lightgray;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 5px;
+            }
+
+            header {
+                margin: 5px;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Noticias Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam repudiandae adipisci necessitatibus molestias alias. Similique inventore quas amet, sapiente odio optio sint nulla quisquam, voluptatum rem debitis atque eveniet!</p>
+                <aside>
+                    <p>Artigo escrito por mim.</p>
+                </aside>
+            </article>
+            <!-- Consider adding content or removing this empty article -->
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Raphael</p>
+    </footer>
+</body>
+</html>
